@@ -19,6 +19,7 @@ header
     
 }
 
+
 .navbar
 {
     display: flex;
@@ -88,6 +89,49 @@ nav a
     padding: 40px;
     text-align: center;
 }
+
+main
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+
+.what-we-do
+{
+    height: 184px;
+    width: 637px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+    color: #071629;
+}
+
+#wwdp
+{
+    height: 104px;
+    width: 637px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.items-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 
 @media screen and (max-width: 480px)
